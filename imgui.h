@@ -1421,6 +1421,14 @@ enum ImGuiKey_
     ImGuiKey_GamepadRStickLeft,     // [Analog]
     ImGuiKey_GamepadRStickRight,    // [Analog]
 
+    // High-level/virtual keys (for e.g. web apps events)
+    ImGuiKey_Copy,
+    ImGuiKey_Cut,
+    ImGuiKey_Paste,
+    ImGuiKey_Undo,
+    ImGuiKey_Redo,
+    ImGuiKey_SelectAll,
+
     // Keyboard Modifiers
     // - This is mirroring the data also written to io.KeyCtrl, io.KeyShift, io.KeyAlt, io.KeySuper, in a format allowing
     //   them to be accessed via standard key API, allowing calls such as IsKeyPressed(), IsKeyReleased(), querying duration etc.

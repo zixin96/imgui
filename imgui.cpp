@@ -7565,6 +7565,7 @@ static const char* const GKeyNames[] =
     "GamepadL1", "GamepadR1", "GamepadL2", "GamepadR2", "GamepadL3", "GamepadR3",
     "GamepadLStickUp", "GamepadLStickDown", "GamepadLStickLeft", "GamepadLStickRight",
     "GamepadRStickUp", "GamepadRStickDown", "GamepadRStickLeft", "GamepadRStickRight",
+    "Copy", "Cut", "Paste", "Undo", "Redo", "SelectAll",
     "ModCtrl", "ModShift", "ModAlt", "ModSuper"
 };
 IM_STATIC_ASSERT(ImGuiKey_NamedKey_COUNT == IM_ARRAYSIZE(GKeyNames));
